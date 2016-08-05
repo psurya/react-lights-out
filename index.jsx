@@ -106,7 +106,7 @@ var LightsOut = React.createClass({
         >
           Turn on every switch.
         </a>
-        <button onClick={this.handleReset}>Shuffle</button><br><br><br>
+        <button onClick={this.handleReset}>Shuffle</button><br/><br/><br/>
         {
           this.state.board.map(function(row, i) {
             return (
